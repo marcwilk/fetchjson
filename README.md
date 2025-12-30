@@ -21,10 +21,12 @@ https://jsonplaceholder.typicode.com/todos/1
 
 ## Project Structure
 
+```
 fetchjson/
 ├── index.ts
 ├── package.json
 └── README.md
+```
 
 ## Steps to Run the Project
 
@@ -46,23 +48,3 @@ npx tsx index.ts
 The Todo with ID: 1
 Has a title of: delectus aut autem
 Is it finished? false
-
-## Why This Example Is Useful
-
-- Demonstrates basic API fetching
-- Shows how to type external data in TypeScript
-- Illustrates clean separation of logic
-- Uses modern Node.js tooling
-
-## Possible Improvements
-
-- Convert to async/await
-- Add error handling
-- Fetch multiple todos
-- Add unit tests
-- Turn into a small CLI tool
-
-## License
-
-MIT
-
